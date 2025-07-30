@@ -6,5 +6,4 @@ buttons.forEach(button => {
     display.value += this.value;  // this.value is "7", "8", "+" etc
     });
 });
-
-console.log(this.value); // This will log the value of the button clicked
+console.log(`Button clicked: ${this.value}`);
