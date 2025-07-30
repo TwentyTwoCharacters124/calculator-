@@ -9,26 +9,29 @@
 </head>
 <body>
     <h1>My Basic Calculator</h1>
-
+<input type ="text" id="display" readonly />
+    <script src="calculations.js"></script>
+    <p>Click the buttons below to perform calculations.</p>
 <table id="buttons">
     <tr>
         <td>
-            <input type="button" value="1" />
-            <input type="button" value="2" />
-            <input type="button" value="3" />
-        </td>
-    <tr>
-        <td>
-            <input type="button" value="4" />
-            <input type="button" value="6" />
-            <input type="button" value="7" /> 
+            <input type="button" value="1" class="btn"/>
+            <input type="button" value="3" class="btn"/>
+            <input type="button" value="2" class="btn"/>
         </td>
     </tr>
     <tr>
         <td>
-            <input type="button" value="8" />
-            <input type="button" value="9" />
-            <input type="button" value="0" />
+            <input type="button" value="6" class="btn"/>
+            <input type="button" value="4" class="btn"/>
+            <input type="button" value="7" class="btn"/> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" value="8" class="btn"/>
+            <input type="button" value="9" class="btn"/>
+            <input type="button" value="0" class="btn"/>
         </td>
     </tr>
     <tr>
@@ -45,5 +48,8 @@
         </td>
     </tr>
 </table>
+
+
+
 </body>
 </html>
