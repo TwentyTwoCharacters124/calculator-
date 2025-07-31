@@ -35,7 +35,9 @@ clearButton.addEventListener('click', () => {
 Calculate.addEventListener('click', (a) => {
     a.preventDefault();
     
-    const calculation = display.value;
+    let calculation = display.value;
+    let result = eval(calculation);
+    display.value = result;
 
     console.log('Calculate button clicked');
 
